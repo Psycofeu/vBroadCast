@@ -1,0 +1,26 @@
+#$$$$$$$\                                           $$$$$$\
+#$$  __$$\                                         $$  __$$\
+#$$ |  $$ | $$$$$$$\ $$\   $$\  $$$$$$$\  $$$$$$\  $$ /  \__|$$$$$$\  $$\   $$\
+#$$$$$$$  |$$  _____|$$ |  $$ |$$  _____|$$  __$$\ $$$$\    $$  __$$\ $$ |  $$ |
+#$$  ____/ \$$$$$$\  $$ |  $$ |$$ /      $$ /  $$ |$$  _|   $$$$$$$$ |$$ |  $$ |
+#$$ |       \____$$\ $$ |  $$ |$$ |      $$ |  $$ |$$ |     $$   ____|$$ |  $$ |
+#$$ |      $$$$$$$  |\$$$$$$$ |\$$$$$$$\ \$$$$$$  |$$ |     \$$$$$$$\ \$$$$$$  |
+#\__|      \_______/  \____$$ | \_______| \______/ \__|      \_______| \______/
+#                    $$\   $$ |
+#                    \$$$$$$  |
+#                     \______/
+# https://discord.gg/vanillamcbe
+# https://github.com/psycofeu
+
+# TAGS:
+# {line} = jump to another line
+# {online} = get online player
+# {max_online} = get max online player
+broadcast_time: 10 # in minute
+prefix: "§aBroadCast§f: " # set "" for disable
+broadcast_message:
+  - "Plugin by Psycofeu"
+  - "test line {line} test line"
+  - "this is exemple message"
+  - "Hello world"
+  - "There are §a{online}/{max_online}§f player online "
